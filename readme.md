@@ -5,17 +5,24 @@ Language Detected: C-
 Lexical Conventions of C-
 
 1. The keywords of the language are the following.
+
 else, if, int, return, void, while
+
 All keywords are reserved and must be written in lowercase.
 
 2. Special symbols are as following.
 + - * / < <= > >= == != = ; , { } ( ) [ ] /* */
 
 3. Other tokens are ID and NUM, defined by the following regular expressions.
+
 ID = letter letter*
+
 NUM = digit digit*
+
 letter = a|..|z|A|..|Z
+
 digit = 0|..|9
+
 Lowercase and uppercase letters are distinct.
 
 4. White space consists of blanks, newlines and tabs. White space is ignored except
