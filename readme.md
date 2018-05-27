@@ -24,8 +24,8 @@ that it must separate IDs and NUMs and keywords.
 5. Comments are surrounded by the usual C notations /* */. Comments can be placed
 anywhere white space can appear and comments cannot be placed within tokens.
 Comments may include more than one line, but comments may not be nested.
-
-
+  
+  
 Syntax and Semantics of C-
 
 1. program -> declaration-list  
